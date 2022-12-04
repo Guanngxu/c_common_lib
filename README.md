@@ -1,2 +1,2 @@
 # c_common_lib
-C language (embedded) common libary
+C language (embedded) common library
