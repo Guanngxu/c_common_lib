@@ -1,4 +1,4 @@
-#include "mem_pool.h"
+#include "../inc/mem_pool.h"
 
 // 检查内存池是否正确初始化
 int32_t check_mempool_info(mempool_info_t *mempool_info) {

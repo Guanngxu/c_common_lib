@@ -1,4 +1,4 @@
-#include "eth_util.h"
+#include "../inc/eth_util.h"
 
 int32_t tcp_send(int32_t s, uint8_t *buf, uint32_t send_len) {
 	int32_t ret;
