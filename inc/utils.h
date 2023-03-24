@@ -1,10 +1,13 @@
 #ifndef UTILS_H
 #define UTILS_H
 
-#define arr_count(array) (sizeof(array) / sizeof(typeof(*array)))
+#include <stdio.h>
+#include <stdint.h>
+#include <unistd.h>
+#include <string.h>
 
-void replace_char(char *str, char src, char dst);
+#include "utils.h"
 
-int file_exist(const char *path);
+char *get_curr_proc_name(char *data, int32_t len);
 
 #endif

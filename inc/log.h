@@ -1,11 +1,13 @@
 #ifndef LOG_H
 #define LOG_H
-#include "utils.h"
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
+#include <fcntl.h>
+
+#include "utils.h"
 
 #define DECLARE_LOGLEVEL_VAR() \
     int32_t _log_level_ = LOG_LVL_INFO
