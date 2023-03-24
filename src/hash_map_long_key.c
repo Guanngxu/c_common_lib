@@ -4,7 +4,7 @@
  * Author: Guanngxu (446678850@qq.com)
  */
 
-#include "hash_map_int_key.h"
+#include "hash_map_long_key.h"
 
 /**
   @brief    Duplicate a string

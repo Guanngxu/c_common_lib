@@ -7,6 +7,7 @@ set(TOP_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 # install dir
 set(CMAKE_INSTALL_PREFIX ${CMAKE_BINARY_DIR}/install)
 
+
 include_directories(${TOP_DIR}/inc)
 
 # Get all source files
